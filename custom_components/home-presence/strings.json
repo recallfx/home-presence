@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "New Home Presence Sensor",
+        "data": {
+          "motion_sensors": "Motion Sensors",
+          "gaph": "Graph",
+          "name": "Name"
+        },
+        "data_description": {
+          "motion_sensors": "Select the motion sensors that you want to use to detect presence at home",
+          "gaph": "We need to know the graph of the home motion sensors to be able to detect presence around the house",
+          "name": "Name of the home presence sensor"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "motion_sensors": "[%key:component::NEW_DOMAIN::config::step::user::description%]"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "domain": "home-presense",
+  "name": "Home Presence",
+  "codeowners": [
+    "@recallfx"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "calendar"
+  ],
+  "documentation": "https://github.com/recallfx/home-presense",
+  "homekit": {},
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/recallfx/home-presense/issues",
+  "requirements": [],
+  "ssdp": [],
+  "version": "0.0.1",
+  "zeroconf": []
+}
