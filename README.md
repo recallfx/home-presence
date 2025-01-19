@@ -1,5 +1,5 @@
-# House Presence [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
-House Presence - Presence integration for Home Assistant utilizing a combination of multiple `motion` sensors.
+# Home Presence [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+Home Presence - Presence integration for Home Assistant utilizing a combination of multiple `motion` sensors.
 
 ## Installation (with HACS)
 

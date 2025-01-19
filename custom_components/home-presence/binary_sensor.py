@@ -1,4 +1,4 @@
-"""House Presence integration."""
+"""Home Presence integration."""
 from enum import StrEnum
 import logging
 from datetime import datetime
