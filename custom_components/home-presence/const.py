@@ -1,3 +1,3 @@
-"""Constants for the Home Presense integration."""
+"""Constants for the Home Presence integration."""
 
-DOMAIN = "home-presense"
+DOMAIN = "home-presence"

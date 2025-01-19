@@ -1,5 +1,5 @@
 {
-  "domain": "home-presense",
+  "domain": "home-presence",
   "name": "Home Presence",
   "codeowners": [
     "@recallfx"
@@ -8,11 +8,11 @@
   "dependencies": [
     "calendar"
   ],
-  "documentation": "https://github.com/recallfx/home-presense",
+  "documentation": "https://github.com/recallfx/home-presence",
   "homekit": {},
   "integration_type": "device",
   "iot_class": "local_push",
-  "issue_tracker": "https://github.com/recallfx/home-presense/issues",
+  "issue_tracker": "https://github.com/recallfx/home-presence/issues",
   "requirements": [],
   "ssdp": [],
   "version": "0.0.1",

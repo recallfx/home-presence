@@ -43,14 +43,14 @@ async def async_setup_entry(
 
 
 class STATES(StrEnum):
-    """Possible states of the home presense binary sensor."""
+    """Possible states of the home presence binary sensor."""
 
     S0 = "vacant"
     S1 = "occupied"
 
 
 class HomePresenseBinarySensor(BinarySensorEntity):
-    """Representation of a home presense binary sensor."""
+    """Representation of a home presence binary sensor."""
 
     def __init__(
         self,
@@ -60,7 +60,7 @@ class HomePresenseBinarySensor(BinarySensorEntity):
         motion_sensors,
         graph,
     ) -> None:
-        """Initialize the home presense binary sensor."""
+        """Initialize the home presence binary sensor."""
         self._hass = hass
         self._attr_name = name
         self._attr_unique_id = unique_id
